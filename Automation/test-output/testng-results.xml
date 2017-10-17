@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="252154" started-at="2017-10-17T04:36:06Z" finished-at="2017-10-17T04:40:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="252154" started-at="2017-10-17T04:36:06Z" finished-at="2017-10-17T04:40:18Z">
+      <class name="scripts.TestSuite">
+        <test-method status="PASS" signature="kickStart(java.lang.String)[pri:0, instance:scripts.TestSuite@77caeb3e]" name="kickStart" is-config="true" duration-ms="32033" started-at="2017-10-17T10:06:06Z" finished-at="2017-10-17T10:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+        <test-method status="PASS" signature="Bootstrap_dropdown()[pri:0, instance:scripts.TestSuite@77caeb3e]" name="Bootstrap_dropdown" duration-ms="11798" started-at="2017-10-17T10:06:38Z" finished-at="2017-10-17T10:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bootstrap_dropdown -->
+        <test-method status="PASS" signature="kickStart(java.lang.String)[pri:0, instance:scripts.TestSuite@77caeb3e]" name="kickStart" is-config="true" duration-ms="21293" started-at="2017-10-17T10:06:50Z" finished-at="2017-10-17T10:07:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+        <test-method status="PASS" signature="CalenderHandling()[pri:0, instance:scripts.TestSuite@77caeb3e]" name="CalenderHandling" duration-ms="86428" started-at="2017-10-17T10:07:12Z" finished-at="2017-10-17T10:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalenderHandling -->
+        <test-method status="PASS" signature="kickStart(java.lang.String)[pri:0, instance:scripts.TestSuite@77caeb3e]" name="kickStart" is-config="true" duration-ms="16677" started-at="2017-10-17T10:08:38Z" finished-at="2017-10-17T10:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+        <test-method status="PASS" signature="FacebookSignUpPage()[pri:0, instance:scripts.TestSuite@77caeb3e]" name="FacebookSignUpPage" duration-ms="16268" started-at="2017-10-17T10:08:55Z" finished-at="2017-10-17T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUpPage -->
+        <test-method status="PASS" signature="kickStart(java.lang.String)[pri:0, instance:scripts.TestSuite@77caeb3e]" name="kickStart" is-config="true" duration-ms="15242" started-at="2017-10-17T10:09:11Z" finished-at="2017-10-17T10:09:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+        <test-method status="FAIL" signature="checkValidUser()[pri:0, instance:scripts.TestSuite@77caeb3e]" name="checkValidUser" duration-ms="16204" started-at="2017-10-17T10:09:26Z" finished-at="2017-10-17T10:09:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at scripts.TestSuite.checkValidUser(TestSuite.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+        <test-method status="FAIL" signature="loginToFB(java.lang.String, java.lang.String)[pri:0, instance:scripts.TestSuite@77caeb3e]" name="loginToFB" duration-ms="0" started-at="2017-10-17T10:09:42Z" data-provider="facebookTest" finished-at="2017-10-17T10:09:42Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Some DataProvider public java.lang.String[][] scripts.TestSuite.dp(java.lang.String,java.lang.String) throws java.lang.Exception parameters unresolved:  at 0 type class java.lang.String
+ at 1 type class java.lang.String
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Some DataProvider public java.lang.String[][] scripts.TestSuite.dp(java.lang.String,java.lang.String) throws java.lang.Exception parameters unresolved:  at 0 type class java.lang.String
+ at 1 type class java.lang.String
+
+	at org.testng.internal.MethodInvocationHelper.getParameters(MethodInvocationHelper.java:178)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:114)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:612)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1316)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1044)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1134)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFB -->
+        <test-method status="PASS" signature="kickStart(java.lang.String)[pri:0, instance:scripts.TestSuite@77caeb3e]" name="kickStart" is-config="true" duration-ms="22392" started-at="2017-10-17T10:09:42Z" finished-at="2017-10-17T10:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+        <test-method status="PASS" signature="testPopUp()[pri:0, instance:scripts.TestSuite@77caeb3e]" name="testPopUp" duration-ms="13593" started-at="2017-10-17T10:10:05Z" finished-at="2017-10-17T10:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopUp -->
+      </class> <!-- scripts.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
